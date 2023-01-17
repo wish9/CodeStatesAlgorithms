@@ -11,10 +11,10 @@ public class Main {
 //        System.out.println(output);
 
         //DailyCoding 코플릿 2번
-        CalculateWhenThePrincipalDoubles calculateWhenThePrincipalDoubles = new CalculateWhenThePrincipalDoubles();
-
-        System.out.println(calculateWhenThePrincipalDoubles.computeWhenDouble(7));
-        System.out.println(calculateWhenThePrincipalDoubles.computeWhenDouble(3.2));
+//        CalculateWhenThePrincipalDoubles calculateWhenThePrincipalDoubles = new CalculateWhenThePrincipalDoubles();
+//
+//        System.out.println(calculateWhenThePrincipalDoubles.computeWhenDouble(7));
+//        System.out.println(calculateWhenThePrincipalDoubles.computeWhenDouble(3.2));
 
 
         //stringfy 메서드 (자바타입 -> JSON타입) 수동으로 만들기
@@ -37,6 +37,19 @@ public class Main {
 //
 //        System.out.println(json.stringify(hashMap));
 
+        //DailyCoding 코플릿 3번
+        MakeMathlog makeMathlog = new MakeMathlog();
 
+        System.out.println(makeMathlog.mathlog(564872));
+        System.out.println(makeMathlog.mathlog(64));
+        System.out.println(makeMathlog.mathlog(524288));
+
+
+
+        //DailyCoding 코플릿 4번
+//        FirstCharacter first = new FirstCharacter();
+//
+//        System.out.println(first.firstCharacter("hello world"));
+//        System.out.println(first.firstCharacter("1 2 3"));
     }
 }
