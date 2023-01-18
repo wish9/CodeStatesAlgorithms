@@ -38,11 +38,11 @@ public class Main {
 //        System.out.println(json.stringify(hashMap));
 
         //DailyCoding 코플릿 3번
-        MakeMathlog makeMathlog = new MakeMathlog();
-
-        System.out.println(makeMathlog.mathlog(564872));
-        System.out.println(makeMathlog.mathlog(64));
-        System.out.println(makeMathlog.mathlog(524288));
+//        MakeMathlog makeMathlog = new MakeMathlog();
+//
+//        System.out.println(makeMathlog.mathlog(564872));
+//        System.out.println(makeMathlog.mathlog(64));
+//        System.out.println(makeMathlog.mathlog(524288));
 
 
 
@@ -51,5 +51,13 @@ public class Main {
 //
 //        System.out.println(first.firstCharacter("hello world"));
 //        System.out.println(first.firstCharacter("1 2 3"));
+
+
+
+        //DailyCoding 코플릿 4번
+        ReverseString reverseString = new ReverseString();
+
+        System.out.println(reverseString.ReverseString("Hello java"));
+
     }
 }
