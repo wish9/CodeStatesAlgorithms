@@ -55,9 +55,14 @@ public class Main {
 
 
         //DailyCoding 코플릿 4번
-        ReverseString reverseString = new ReverseString();
+//        ReverseString reverseString = new ReverseString();
+//
+//        System.out.println(reverseString.ReverseString("Hello java"));
 
-        System.out.println(reverseString.ReverseString("Hello java"));
+        //DailyCoding 코플릿 6번
+        LetterCapitalize letterCapitalize = new LetterCapitalize();
+
+        System.out.println(letterCapitalize.letterCapitalize("iTS  sO     hARD"));
 
     }
 }
