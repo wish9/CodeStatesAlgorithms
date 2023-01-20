@@ -60,9 +60,19 @@ public class Main {
 //        System.out.println(reverseString.ReverseString("Hello java"));
 
         //DailyCoding 코플릿 6번
-        LetterCapitalize letterCapitalize = new LetterCapitalize();
+//        LetterCapitalize letterCapitalize = new LetterCapitalize();
+//
+//        System.out.println(letterCapitalize.letterCapitalize("iTS  sO     hARD"));
 
-        System.out.println(letterCapitalize.letterCapitalize("iTS  sO     hARD"));
+        //DailyCoding 코플릿 7번
+        ArrayToHashmap arrayToHashmap = new ArrayToHashmap();
+
+        System.out.println(new String[][]{
+                {"make", "Ford"},
+                {"model", "Mustang"},
+                {"year", "1964"},
+                {"make", "Bill"},
+        });
 
     }
 }
