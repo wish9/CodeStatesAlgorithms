@@ -65,14 +65,19 @@ public class Main {
 //        System.out.println(letterCapitalize.letterCapitalize("iTS  sO     hARD"));
 
         //DailyCoding 코플릿 7번
-        ArrayToHashmap arrayToHashmap = new ArrayToHashmap();
+//        ArrayToHashmap arrayToHashmap = new ArrayToHashmap();
+//
+//        System.out.println(new String[][]{
+//                {"make", "Ford"},
+//                {"model", "Mustang"},
+//                {"year", "1964"},
+//                {"make", "Bill"},
+//        });
 
-        System.out.println(new String[][]{
-                {"make", "Ford"},
-                {"model", "Mustang"},
-                {"year", "1964"},
-                {"make", "Bill"},
-        });
-
+        //DailyCoding 코플릿 8번
+        DoubleSpaceToSingle doubleSpaceToSingle = new DoubleSpaceToSingle();
+        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle("Double  space with  Double  "));
+        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle2("Double  space with  Double  "));
+        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle3("Double  space with  Double  "));
     }
 }
