@@ -1,3 +1,5 @@
+package CodeStatesAlgorithms;
+
 import java.util.Arrays;
 import java.util.regex.Pattern;
 
@@ -24,7 +26,7 @@ public class LetterCapitalize {
             }
 
             if (result == "") result = strChange2;
-            else result = result + " " + strChange2;
+            else result = result + " " + strChange2; //String.join쓰면 조금 더 간단히 가능
         }
         return result;
     }

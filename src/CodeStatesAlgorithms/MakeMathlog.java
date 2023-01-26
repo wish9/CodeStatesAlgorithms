@@ -1,3 +1,5 @@
+package CodeStatesAlgorithms;
+
 public class MakeMathlog {
     public boolean mathlog(long num) { // 2의 거듭제곱인지 판별
         boolean result = true;

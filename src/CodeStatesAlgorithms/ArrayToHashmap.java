@@ -1,3 +1,5 @@
+package CodeStatesAlgorithms;
+
 import java.util.HashMap;
 
 public class ArrayToHashmap {
