@@ -75,9 +75,14 @@ public class Main {
 //        });
 
         //DailyCoding 코플릿 8번
-        DoubleSpaceToSingle doubleSpaceToSingle = new DoubleSpaceToSingle();
-        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle("Double  space with  Double  "));
-        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle2("Double  space with  Double  "));
-        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle3("Double  space with  Double  "));
+//        DoubleSpaceToSingle doubleSpaceToSingle = new DoubleSpaceToSingle();
+//        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle("Double  space with  Double  "));
+//        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle2("Double  space with  Double  "));
+//        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle3("Double  space with  Double  "));
+
+        //DailyCoding 코플릿 8번
+        StringCheck stringCheck = new StringCheck();
+
+        System.out.println(stringCheck.ABCheck("aMAJ7sBrO4CyysuoHFrgGTX"));
     }
 }
