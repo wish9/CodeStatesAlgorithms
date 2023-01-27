@@ -81,8 +81,13 @@ public class Main {
 //        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle3("Double  space with  Double  "));
 
         //DailyCoding 코플릿 8번
-        StringCheck stringCheck = new StringCheck();
+//        StringCheck stringCheck = new StringCheck();
+//
+//        System.out.println(stringCheck.ABCheck("aMAJ7sBrO4CyysuoHFrgGTX"));
 
-        System.out.println(stringCheck.ABCheck("aMAJ7sBrO4CyysuoHFrgGTX"));
+
+        //DailyCoding 코플릿 9번
+        IfOddAddDash ifOddAddDash = new IfOddAddDash();
+        System.out.println(ifOddAddDash.insertDash("243579118239"));
     }
 }
