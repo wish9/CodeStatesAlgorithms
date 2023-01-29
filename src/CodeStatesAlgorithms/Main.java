@@ -1,5 +1,7 @@
 package CodeStatesAlgorithms;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //DailyCoding 코플릿 1번
@@ -80,14 +82,19 @@ public class Main {
 //        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle2("Double  space with  Double  "));
 //        System.out.println(doubleSpaceToSingle.convertDoubleSpaceToSingle3("Double  space with  Double  "));
 
-        //DailyCoding 코플릿 8번
+        //DailyCoding 코플릿 9번
 //        StringCheck stringCheck = new StringCheck();
 //
 //        System.out.println(stringCheck.ABCheck("aMAJ7sBrO4CyysuoHFrgGTX"));
 
 
-        //DailyCoding 코플릿 9번
-        IfOddAddDash ifOddAddDash = new IfOddAddDash();
-        System.out.println(ifOddAddDash.insertDash("243579118239"));
+        //DailyCoding 코플릿 10번
+//        IfOddAddDash ifOddAddDash = new IfOddAddDash();
+//        System.out.println(ifOddAddDash.insertDash("243579118239"));
+
+
+        //DailyCoding 코플릿 11번
+        RemoveLongAndShort removeLongAndShort = new RemoveLongAndShort();
+        System.out.println(Arrays.toString(removeLongAndShort.removeExtremes(new String[]{"where", "is", "the", "longest", "word"})));
     }
 }
