@@ -94,7 +94,12 @@ public class Main {
 
 
         //DailyCoding 코플릿 11번
-        RemoveLongAndShort removeLongAndShort = new RemoveLongAndShort();
-        System.out.println(Arrays.toString(removeLongAndShort.removeExtremes(new String[]{"where", "is", "the", "longest", "word"})));
+//        RemoveLongAndShort removeLongAndShort = new RemoveLongAndShort();
+//        System.out.println(Arrays.toString(removeLongAndShort.removeExtremes(new String[]{"where", "is", "the", "longest", "word"})));
+
+
+        //DailyCoding 코플릿 12번
+        ReverseArr reverseArr = new ReverseArr();
+        System.out.println(Arrays.toString(reverseArr.reverseArr(new int[]{1, 2, 3, 4, 5})));
     }
 }
