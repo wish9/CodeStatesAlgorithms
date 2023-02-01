@@ -99,7 +99,17 @@ public class Main {
 
 
         //DailyCoding 코플릿 12번
-        ReverseArr reverseArr = new ReverseArr();
-        System.out.println(Arrays.toString(reverseArr.reverseArr(new int[]{1, 2, 3, 4, 5})));
+//        ReverseArr reverseArr = new ReverseArr();
+//        System.out.println(Arrays.toString(reverseArr.reverseArr(new int[]{1, 2, 3, 4, 5})));
+
+        //DailyCoding 코플릿 13번
+        ReadVertically readVertically = new ReadVertically();
+        System.out.println(readVertically.readVertically(new String[]{
+                "나듕달",
+                "랏귁아",
+                "말에",
+                "싸",
+                "미"
+        }));
     }
 }
