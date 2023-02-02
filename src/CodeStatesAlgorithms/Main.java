@@ -103,13 +103,22 @@ public class Main {
 //        System.out.println(Arrays.toString(reverseArr.reverseArr(new int[]{1, 2, 3, 4, 5})));
 
         //DailyCoding 코플릿 13번
-        ReadVertically readVertically = new ReadVertically();
-        System.out.println(readVertically.readVertically(new String[]{
-                "나듕달",
-                "랏귁아",
-                "말에",
-                "싸",
-                "미"
-        }));
+//        ReadVertically readVertically = new ReadVertically();
+//        System.out.println(readVertically.readVertically(new String[]{
+//                "나듕달",
+//                "랏귁아",
+//                "말에",
+//                "싸",
+//                "미"
+//        }));
+
+
+        //DailyCoding 코플릿 14번
+        SuperIncreasing superIncreasing = new SuperIncreasing();
+        System.out.println(superIncreasing.superIncreasing(new int[] {1, 2, 4, 8, 15}));
+
+
+
+
     }
 }
