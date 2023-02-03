@@ -114,11 +114,14 @@ public class Main {
 
 
         //DailyCoding 코플릿 14번
-        SuperIncreasing superIncreasing = new SuperIncreasing();
-        System.out.println(superIncreasing.superIncreasing(new int[] {1, 2, 4, 8, 15}));
+//        SuperIncreasing superIncreasing = new SuperIncreasing();
+//        System.out.println(superIncreasing.superIncreasing(new int[] {1, 2, 4, 8, 15}));
 
 
-
-
+        //DailyCoding 코플릿 15번
+        Division division = new Division();
+        System.out.println(division.modulo(123456,51));
+        System.out.println(division.modulo(123456,0));
+        System.out.println(division.modulo(0,4));
     }
 }
