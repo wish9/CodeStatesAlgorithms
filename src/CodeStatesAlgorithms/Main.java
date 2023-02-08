@@ -126,10 +126,21 @@ public class Main {
 
 
         //DailyCoding 코플릿 16번
-        Isogram isogram = new Isogram();
-        System.out.println(isogram.isIsogram("imCrazy"));
-        System.out.println(isogram.isIsogram("amiCrazy"));
-        System.out.println(isogram.isIsogram2("imCrazy"));
-        System.out.println(isogram.isIsogram2("amiCrazy"));
+//        Isogram isogram = new Isogram();
+//        System.out.println(isogram.isIsogram("imCrazy"));
+//        System.out.println(isogram.isIsogram("amiCrazy"));
+//        System.out.println(isogram.isIsogram2("imCrazy"));
+//        System.out.println(isogram.isIsogram2("amiCrazy"));
+
+
+        //DailyCoding 코플릿 17번
+        Root root = new Root();
+        System.out.println(root.computeSquareRoot(4));
+        System.out.println(root.computeSquareRoot(9));
+        System.out.println(root.computeSquareRoot(143));
+        System.out.println(root.computeSquareRoot2(4));
+        System.out.println(root.computeSquareRoot2(9));
+        System.out.println(root.computeSquareRoot2(143));
+
     }
 }
