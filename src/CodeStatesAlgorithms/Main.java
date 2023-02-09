@@ -134,13 +134,26 @@ public class Main {
 
 
         //DailyCoding 코플릿 17번
-        Root root = new Root();
-        System.out.println(root.computeSquareRoot(4));
-        System.out.println(root.computeSquareRoot(9));
-        System.out.println(root.computeSquareRoot(143));
-        System.out.println(root.computeSquareRoot2(4));
-        System.out.println(root.computeSquareRoot2(9));
-        System.out.println(root.computeSquareRoot2(143));
+//        Root root = new Root();
+//        System.out.println(root.computeSquareRoot(4));
+//        System.out.println(root.computeSquareRoot(9));
+//        System.out.println(root.computeSquareRoot(143));
+//        System.out.println(root.computeSquareRoot2(4));
+//        System.out.println(root.computeSquareRoot2(9));
+//        System.out.println(root.computeSquareRoot2(143));
+
+
+        //DailyCoding 코플릿 18번
+        NumberSearch numberSearch = new NumberSearch();
+        System.out.println(numberSearch.numberSearch("9이"));
+        System.out.println(numberSearch.numberSearch2("111111d"));
+        System.out.println(numberSearch.numberSearch("WeAre6"));
+        System.out.println(numberSearch.numberSearch2("WeAre7"));
+        System.out.println(numberSearch.numberSearch2("WeAre5"));
+        System.out.println(numberSearch.numberSearch("WeAre6But32"));
+        System.out.println(numberSearch.numberSearch("YlQO uT9")); // 2
+        System.out.println(numberSearch.numberSearch2("Hello6 9World 2, Nic8e D7ay!")); // 2
+        System.out.println(numberSearch.numberSearch("Hello6 9World 2,")); // 2
 
     }
 }
