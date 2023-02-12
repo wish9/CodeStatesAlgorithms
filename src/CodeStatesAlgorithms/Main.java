@@ -157,10 +157,18 @@ public class Main {
 
 
         //DailyCoding 코플릿 19번
-        DecryptCaesarCipher decryptCaesarCipher = new DecryptCaesarCipher();
-        System.out.println(decryptCaesarCipher.decryptCaesarCipher("khoor", 3));
-        System.out.println(decryptCaesarCipher.decryptCaesarCipher("zruog", 3));
-        System.out.println(decryptCaesarCipher.decryptCaesarCipher("mnv xnt zqd qdzcx sn lnud sn hlldqrhud bntqrd", 25));
+//        DecryptCaesarCipher decryptCaesarCipher = new DecryptCaesarCipher();
+//        System.out.println(decryptCaesarCipher.decryptCaesarCipher("khoor", 3));
+//        System.out.println(decryptCaesarCipher.decryptCaesarCipher("zruog", 3));
+//        System.out.println(decryptCaesarCipher.decryptCaesarCipher("mnv xnt zqd qdzcx sn lnud sn hlldqrhud bntqrd", 25));
+
+
+        //DailyCoding 코플릿 20번
+        CompressString compressString =new CompressString();
+        System.out.println(compressString.compressString("qwweeerrrrtt"));
+        System.out.println(compressString.compressString("EQTWVOQQQVDVRC"));
+        System.out.println(compressString.compressString2("qwweeerrrrtt"));
+        System.out.println(compressString.compressString2("EQTWVOQQQVDVRC"));
 
     }
 }
