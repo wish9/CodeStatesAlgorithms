@@ -164,11 +164,16 @@ public class Main {
 
 
         //DailyCoding 코플릿 20번
-        CompressString compressString =new CompressString();
-        System.out.println(compressString.compressString("qwweeerrrrtt"));
-        System.out.println(compressString.compressString("EQTWVOQQQVDVRC"));
-        System.out.println(compressString.compressString2("qwweeerrrrtt"));
-        System.out.println(compressString.compressString2("EQTWVOQQQVDVRC"));
+//        CompressString compressString =new CompressString();
+//        System.out.println(compressString.compressString("qwweeerrrrtt"));
+//        System.out.println(compressString.compressString("EQTWVOQQQVDVRC"));
+//        System.out.println(compressString.compressString2("qwweeerrrrtt"));
+//        System.out.println(compressString.compressString2("EQTWVOQQQVDVRC"));
+
+        //DailyCoding 코플릿 21번
+        LargestMultiplication largestMultiplication = new LargestMultiplication();
+        System.out.println(largestMultiplication.largestProductOfThree(new int[]{-1, 2, -5, 7})); //35
+        System.out.println(largestMultiplication.largestProductOfThree(new int[]{2, 1, 3, 7})); //42
 
     }
 }
